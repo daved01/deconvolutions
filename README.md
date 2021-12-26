@@ -1,4 +1,5 @@
 # Deconvolutions, transposed convolutions, fractionally strided convolutions
+![GitHub](https://img.shields.io/github/license/daved01/cocoTraffic)
 
 Deconvolutions where first introduced by [Zeiler et al. (2010)](https://doi.org/10.1109/CVPR.2010.5539957) and are also known under the names *transposed convolutions* and *fractionally strided convolutions*. This repository explores why these names make sense for certain combinations of input/output/kernel sizes and strides. It also shows that every deconvolution can be implemented by padding/upsampling the input and then a direct convolution.
 
