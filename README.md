@@ -10,7 +10,7 @@ For more details see our [blog post](). The examples and images are inspired by 
 * Kernel size: `(3,3)`
 * Stride: `(1,1)`
 
-<img src="img/deconvs-as-matrix.gif" alt="Direct convolution, transposed convolution" size="80">
+<img src="img/deconvs-as-matrix.gif" alt="Direct convolution, transposed convolution" width="60">
 
 
 This example shows how the direct convolution from shape `(4,4)` -> `(2,2)` can be reversed by transposing the matrix which describes this direct convolution. This transposed convolution is then described with the shapes.
@@ -27,7 +27,7 @@ This example shows how the direct convolution from shape `(4,4)` -> `(2,2)` can 
 * Kernel size: `(3,3)`
 * Stride: `(1,1)`
 
-<img src="img/padded-convs.jpg" alt="Padded input with convolution leads to upsampling" width="50%">
+<img src="img/padded-convs.jpg" alt="Padded input with convolution leads to upsampling" width="30%">
 
 This example illustrates how the deconvolution `(2,2)` -> `(4,4)` can be expressed as a convolution on a padded (upsampled) input.
 
@@ -38,7 +38,7 @@ This example illustrates how the deconvolution `(2,2)` -> `(4,4)` can be express
 * Kernel size: `(3,3)`
 * Stride: `(1,1)`
 
-<img src="img/fractionally-strided-convs.jpg" alt="Fractionally strided convolution" width="50%">
+<img src="img/fractionally-strided-convs.jpg" alt="Fractionally strided convolution" width="25%">
 
 To transform an input of shape `(2,2)` into an output of shape `(7,7)` you need a deconvolution with stride $1/2$. That is why this is also called a fractionally strided convolution. This operation can also be implemented as a direct convolution. Here, the input has to be padded between the elements as well as on the border.
 
