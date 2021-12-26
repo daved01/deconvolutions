@@ -10,7 +10,7 @@ For more details see our [blog post](). The examples and images are inspired by 
 * Kernel size: `(3,3)`
 * Stride: `(1,1)`
 
-<img src="img/deconvs-as-matrix.gif" alt="Direct convolution, transposed convolution" width="40%">
+<img src="img/deconvs-as-matrix.gif" alt="Direct convolution, transposed convolution" width="60%">
 
 
 This example shows how the direct convolution from shape `(4,4)` -> `(2,2)` can be reversed by transposing the matrix which describes this direct convolution. This transposed convolution is then described with the shapes.
